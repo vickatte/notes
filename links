@@ -1,0 +1,7 @@
+https://gitlab.com/gitlab-examples/aws-sam/blob/master/.gitlab-ci.yml
+
+https://docs.gitlab.com/ee/ci/yaml/#anchors
+
+https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/gitlab/ci/templates/OpenShift.gitlab-ci.yml
+
+https://gitlab.com/gitlab-examples/aws-sam/blob/master/.gitlab-ci.yml
