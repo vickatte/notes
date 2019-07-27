@@ -5,3 +5,6 @@ https://docs.gitlab.com/ee/ci/yaml/#anchors
 https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/gitlab/ci/templates/OpenShift.gitlab-ci.yml
 
 https://gitlab.com/gitlab-examples/aws-sam/blob/master/.gitlab-ci.yml
+
+
+https://medium.com/@yanick.witschi/automated-kubernetes-deployments-with-gitlab-helm-and-traefik-4e54bec47dcf
