@@ -1,0 +1,12 @@
+FunctionArn:
+      Description: The ARN of the lambda function
+      Value:
+        'Fn::Join':
+          - '/'
+          - - 'Fn::Join':
+              - ':'
+              - - 'arn:aws:lambda'
+                - Ref: 'AWS::Region'
+                - Ref: 'AWS::AccountId'
+                - 'function'
+            - 'functionname'
