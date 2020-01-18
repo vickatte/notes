@@ -12,6 +12,14 @@ FunctionArn:
             - 'functionname'
 
 
+
+!Sub
+    - 'arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function/${FunctionName}'
+    - { FunctionName: Ref function }
+
+
+
+
 {
   "Version": "2012-10-17",
   "Statement": [
