@@ -38,3 +38,11 @@ https://theburningmonk.com/2019/05/cloudformation-protip-use-fnsub-instead-of-fn
  ]
 }
 https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks
+
+
+
+Deploy.sh
+https://octopus.com/docs/deployment-examples/custom-scripts/scripts-in-packages
+https://octopus.com/docs/infrastructure/deployment-targets/linux/ssh-deployments
+
+
