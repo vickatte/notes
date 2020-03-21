@@ -66,3 +66,12 @@ export AWS_ACCESS_KEY_ID=${KST[0]}
 export AWS_SECRET_ACCESS_KEY=${KST[1]}
 export AWS_SESSION_TOKEN=${KST[2]}
 export AWS_SECURITY_TOKEN=${KST[2]}
+
+
+FROM adoptopenjdk/openjdk13:jdk-13.0.1_9-slim
+
+COPY target/netty-example-1.0-SNAPSHOT.jar /opt/app/app.jar
+
+CMD ["java", "-jar", "/opt/app/app.jar"]
+
+
